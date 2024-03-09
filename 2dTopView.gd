@@ -27,7 +27,7 @@ func _process(delta):
 		velocity += velocity.normalized()
 			
 	
-
+ #directly run this function in PLAYER script after INSTANTIATE and add var SPEED
 func move_parent_value(speed):
 	return velocity * speed
 
